@@ -67,7 +67,7 @@ if(bill >= 10000):
     print(f"discount :{dis}\n")
     print(f"finall bill {total_bill}")
     
-if (bill > 5000) or (bill < 9999):
+if (bill > 5000) and (bill < 9999):
     dis=bill*0.05
     total_bill =bill -dis
     print(f" your bill :{bill}\n ")
@@ -79,4 +79,5 @@ else:
     print(f" your bill :{bill}\n ")
     print(f"discount :{dis}\n")
     print(f"finall bill {total_bill}")
+    
     
